@@ -1,0 +1,120 @@
+/* ContactForm.css */
+.contact{
+    background-color: #171717;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+  }
+  .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #3c3c3c;
+    }
+  
+    .contact {
+      height: 100vh;
+    }
+    
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .form-label {
+      font-weight: bold;
+    }
+    
+    .form-control {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    textarea {
+      resize: vertical;
+    }
+    
+    .btn {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+      background-color: #171717;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .btn:hover {
+      background-color: #3c3c3c;
+    }
+    
+    .form-status-submitting {
+      background-color: #ffc107;
+    }
+    
+    .form-status-submitting:hover {
+      background-color: #e0a800;
+    }
+    
+    .form-status-success {
+      background-color: #28a745;
+    }
+    
+    .form-status-success:hover {
+      background-color: #1d9239;
+    }
+    
+    .form-status-error {
+      background-color: #dc3545;
+    }
+    
+    .form-status-error:hover {
+      background-color: #a71f31;
+    }
+    
+    .social {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      right: 40px;
+      top: 10px;
+     }
+     
+     @media screen and (max-width: 767px) {
+      .social{
+        position: relative;
+        right: -25px;
+      } 
+    }
+  
+     .social img {
+      width: 30px;
+      height: 30px;
+     }
+  
+     .download-button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #171717;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .download-button:hover {
+      background-color: #3c3c3c;
+    }
+  

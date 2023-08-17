@@ -21,7 +21,7 @@ const ContactForm = () => {
     try {
       console.log('main')
       // Send form data to your Lambda function for processing
-      await axios.post('https://x56kc7uyz7.execute-api.ap-south-1.amazonaws.com/Email_test', requestBody);
+      await axios.post('API gateway Invoke URl', requestBody);
 
       setFormStatus('Success');
     } catch (error) {
